@@ -341,6 +341,11 @@ RESPUESTA JSON:
                 json_match = re.search(r'\{.*\}', result_text, re.DOTALL)
                 if json_match:
                     data = json.loads(json_match.group())
+                    sections_data = data.get("sections", ["INTRO", "DESARROLLO", "CIERRE"])
+                    sections_list = [
+                        {"name": s} if isinstance(s, str) else s 
+                        for s in sections_data
+                    ]
                     video = VideoScript(
                         title=data.get("title", f"Video U{unit_num}.{theme_num}"),
                         content=data.get("script", ""),
@@ -349,7 +354,7 @@ RESPUESTA JSON:
                         concepts_count=min(3, len(concepts)),
                         examples_count=2,
                         visuals_count=data.get("visual_count", 3),
-                        sections=data.get("sections", [])
+                        sections=sections_list
                     )
                     logger.info(f"Generated video script with {video.words} words")
                     return video
@@ -409,7 +414,11 @@ En el siguiente módulo aplicaremos estos principios a la creación de contenido
             concepts_count=min(3, len(concepts)),
             examples_count=3,
             visuals_count=8,
-            sections=["INTRO", "DESARROLLO", "CIERRE"]
+            sections=[
+                {"name": "INTRO", "duration_seconds": 30},
+                {"name": "DESARROLLO", "duration_seconds": 210},
+                {"name": "CIERRE", "duration_seconds": 30}
+            ]
         )
         logger.info(f"Generated template video script with {video.words} words")
         return video

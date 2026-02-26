@@ -1,0 +1,189 @@
+{
+  "name": "Creación de Cursos Virtuales con IA para Profesores Universitarios",
+  "code": "EDUTEC-CVIA-001",
+  "area": "Educación y Tecnología Educativa",
+  "level": "Master/Especialización (EQF Nivel 7)",
+  "duration_hours": 112.5,
+  "units": [
+    {
+      "number": 1,
+      "title": "Fundamentos del Diseño Instruccional en la Era de la IA",
+      "themes": [
+        {
+          "code": "1.1",
+          "title": "Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual",
+          "elements": {
+            "narrative_words": 286,
+            "academic_words": 285,
+            "video_words": 292,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "1.2",
+          "title": "Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS",
+          "elements": {
+            "narrative_words": 289,
+            "academic_words": 292,
+            "video_words": 294,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "1.3",
+          "title": "Introducción a la IA Generativa como Copiloto Pedagógico",
+          "elements": {
+            "narrative_words": 284,
+            "academic_words": 294,
+            "video_words": 293,
+            "concepts_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Arquitectura de Cursos Virtuales de Calidad",
+      "themes": [
+        {
+          "code": "2.1",
+          "title": "Estándares de Calidad: Quality Matters Framework",
+          "elements": {
+            "narrative_words": 276,
+            "academic_words": 282,
+            "video_words": 288,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "2.2",
+          "title": "Alineamiento Curricular y Objetivos de Aprendizaje",
+          "elements": {
+            "narrative_words": 276,
+            "academic_words": 282,
+            "video_words": 288,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "2.3",
+          "title": "Diseño de Experiencias de Aprendizaje Coherentes",
+          "elements": {
+            "narrative_words": 276,
+            "academic_words": 282,
+            "video_words": 288,
+            "concepts_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Creación de Contenidos Educativos con IA",
+      "themes": [
+        {
+          "code": "3.1",
+          "title": "Diseño de Prompts Pedagógicos Efectivos",
+          "elements": {
+            "narrative_words": 276,
+            "academic_words": 285,
+            "video_words": 289,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "3.2",
+          "title": "Generación de Narrativas y Casos de Estudio",
+          "elements": {
+            "narrative_words": 278,
+            "academic_words": 283,
+            "video_words": 289,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "3.3",
+          "title": "Producción de Videos Educativos con IA",
+          "elements": {
+            "narrative_words": 277,
+            "academic_words": 285,
+            "video_words": 290,
+            "concepts_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Evaluación y Curación Crítica en Entornos Mediados por IA",
+      "themes": [
+        {
+          "code": "4.1",
+          "title": "Evaluaciones Auténticas Diseñadas con IA",
+          "elements": {
+            "narrative_words": 273,
+            "academic_words": 280,
+            "video_words": 287,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "4.2",
+          "title": "Curación Crítica de Contenido Generado por IA",
+          "elements": {
+            "narrative_words": 280,
+            "academic_words": 287,
+            "video_words": 291,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "4.3",
+          "title": "Marcos de Evaluación de Calidad: QM, Bloom y ABCDE",
+          "elements": {
+            "narrative_words": 284,
+            "academic_words": 291,
+            "video_words": 294,
+            "concepts_count": 5
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Implementación y Mejora Continua de Cursos Virtuales",
+      "themes": [
+        {
+          "code": "5.1",
+          "title": "Montaje de Cursos en LMS y Publicación",
+          "elements": {
+            "narrative_words": 281,
+            "academic_words": 288,
+            "video_words": 290,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "5.2",
+          "title": "Análisis de Datos y Analítica Educativa",
+          "elements": {
+            "narrative_words": 280,
+            "academic_words": 290,
+            "video_words": 290,
+            "concepts_count": 5
+          }
+        },
+        {
+          "code": "5.3",
+          "title": "Iteración Continua y Comunidades de Práctica",
+          "elements": {
+            "narrative_words": 279,
+            "academic_words": 291,
+            "video_words": 292,
+            "concepts_count": 5
+          }
+        }
+      ]
+    }
+  ]
+}

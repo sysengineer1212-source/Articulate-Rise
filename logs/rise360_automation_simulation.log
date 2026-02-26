@@ -1,0 +1,1093 @@
+2026-02-25 18:59:26 | INFO     | __main__:setup_logging:39 | Logging configured. Log file: logs/rise360_automation_simulation.log
+2026-02-25 18:59:26 | INFO     | __main__:main:64 | ================================================================================
+2026-02-25 18:59:26 | INFO     | __main__:main:65 | MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 18:59:26 | INFO     | __main__:main:66 | ================================================================================
+2026-02-25 18:59:26 | INFO     | __main__:main:67 | Mode: simulation
+2026-02-25 18:59:26 | INFO     | __main__:main:68 | Skip Validation: False
+2026-02-25 18:59:26 | WARNING  | content_generator:__init__:22 | ANTHROPIC_API_KEY not set. Content generation will use templates.
+2026-02-25 18:59:26 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: output
+2026-02-25 18:59:26 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: logs
+2026-02-25 18:59:26 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: content
+2026-02-25 18:59:26 | INFO     | course_creator:__init__:46 | Initialized MCU-ALTEA 150 Course Creator in simulation mode
+2026-02-25 18:59:26 | INFO     | course_creator:run:61 | ================================================================================
+2026-02-25 18:59:26 | INFO     | course_creator:run:62 | STARTING MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 18:59:26 | INFO     | course_creator:run:63 | ================================================================================
+2026-02-25 18:59:26 | INFO     | course_creator:run:66 | 
+[PHASE 1] SETUP
+2026-02-25 18:59:26 | INFO     | course_creator:_phase_setup:106 | Setting up automation environment...
+2026-02-25 18:59:26 | INFO     | rise360_client:authenticate:39 | SIMULATION MODE: Skipping authentication
+2026-02-25 18:59:26 | INFO     | course_creator:_phase_setup:113 | ✅ Authentication successful
+2026-02-25 18:59:26 | INFO     | course_creator:_phase_setup:114 | ✅ Setup complete
+2026-02-25 18:59:26 | INFO     | course_creator:run:72 | 
+[PHASE 2] GENERATE COURSE STRUCTURE
+2026-02-25 18:59:26 | INFO     | course_creator:_phase_generate_structure:119 | Generating course structure...
+2026-02-25 18:59:26 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:26 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:26 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 286 words
+2026-02-25 18:59:26 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.1
+2026-02-25 18:59:26 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 18:59:26 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.1
+2026-02-25 18:59:26 | ERROR    | course_creator:_phase_generate_structure:243 | Failed to generate course structure: 3 validation errors for VideoScript
+sections.0
+  Input should be a valid dictionary [type=dict_type, input_value='INTRO', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/dict_type
+sections.1
+  Input should be a valid dictionary [type=dict_type, input_value='DESARROLLO', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/dict_type
+sections.2
+  Input should be a valid dictionary [type=dict_type, input_value='CIERRE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/dict_type
+2026-02-25 18:59:26 | ERROR    | course_creator:run:74 | Structure generation failed
+2026-02-25 18:59:26 | ERROR    | __main__:main:85 | 
+================================================================================
+2026-02-25 18:59:26 | ERROR    | __main__:main:86 | ❌ AUTOMATION FAILED
+2026-02-25 18:59:26 | ERROR    | __main__:main:87 | ================================================================================
+2026-02-25 18:59:26 | ERROR    | __main__:main:88 | Check logs in: logs/
+2026-02-25 18:59:56 | INFO     | __main__:setup_logging:39 | Logging configured. Log file: logs/rise360_automation_simulation.log
+2026-02-25 18:59:56 | INFO     | __main__:main:64 | ================================================================================
+2026-02-25 18:59:56 | INFO     | __main__:main:65 | MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 18:59:56 | INFO     | __main__:main:66 | ================================================================================
+2026-02-25 18:59:56 | INFO     | __main__:main:67 | Mode: simulation
+2026-02-25 18:59:56 | INFO     | __main__:main:68 | Skip Validation: False
+2026-02-25 18:59:56 | WARNING  | content_generator:__init__:22 | ANTHROPIC_API_KEY not set. Content generation will use templates.
+2026-02-25 18:59:56 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: output
+2026-02-25 18:59:56 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: logs
+2026-02-25 18:59:56 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: content
+2026-02-25 18:59:56 | INFO     | course_creator:__init__:46 | Initialized MCU-ALTEA 150 Course Creator in simulation mode
+2026-02-25 18:59:56 | INFO     | course_creator:run:61 | ================================================================================
+2026-02-25 18:59:56 | INFO     | course_creator:run:62 | STARTING MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 18:59:56 | INFO     | course_creator:run:63 | ================================================================================
+2026-02-25 18:59:56 | INFO     | course_creator:run:66 | 
+[PHASE 1] SETUP
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_setup:106 | Setting up automation environment...
+2026-02-25 18:59:56 | INFO     | rise360_client:authenticate:39 | SIMULATION MODE: Skipping authentication
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_setup:113 | ✅ Authentication successful
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_setup:114 | ✅ Setup complete
+2026-02-25 18:59:56 | INFO     | course_creator:run:72 | 
+[PHASE 2] GENERATE COURSE STRUCTURE
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:119 | Generating course structure...
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 286 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 292 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.1
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 289 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 292 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 294 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.2
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 284 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 294 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 293 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.3
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:166 | ✅ Generated Unit 1 with 3 themes
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Estándares de Calidad: Quality Matters Framework
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.1
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Estándares de Calidad: Quality Matters Framework
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.2
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.3
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 2 with 3 themes
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 289 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.1
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 278 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 283 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 289 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Generación de Narrativas y Casos de Estudio
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.2
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Generación de Narrativas y Casos de Estudio
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.3: Producción de Videos Educativos con IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.3: Producción de Videos Educativos con IA
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 277 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Producción de Videos Educativos con IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.3
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Producción de Videos Educativos con IA
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 3 with 3 themes
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 273 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 280 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 287 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.1
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 280 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 287 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 291 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Curación Crítica de Contenido Generado por IA
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.2
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Curación Crítica de Contenido Generado por IA
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 284 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 291 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 294 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.3
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 4 with 3 themes
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 281 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 288 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.1
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Montaje de Cursos en LMS y Publicación
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.1
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Montaje de Cursos en LMS y Publicación
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 280 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 290 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.2
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Análisis de Datos y Analítica Educativa
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.2
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Análisis de Datos y Analítica Educativa
+2026-02-25 18:59:56 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 18:59:56 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 279 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 291 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.3
+2026-02-25 18:59:56 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 292 words
+2026-02-25 18:59:56 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Iteración Continua y Comunidades de Práctica
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.3
+2026-02-25 18:59:56 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Iteración Continua y Comunidades de Práctica
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 5 with 3 themes
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_structure:238 | ✅ Generated complete course structure: 5 units, 15 themes total
+2026-02-25 18:59:56 | INFO     | course_creator:run:78 | 
+[PHASE 3] VALIDATE CONTENT
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:390 | Validating all course content...
+2026-02-25 18:59:56 | INFO     | validator:validate_course:29 | Starting comprehensive course validation...
+2026-02-25 18:59:56 | INFO     | validator:validate_unit:66 | Validating Unit 1: Fundamentos del Diseño Instruccional en la Era de la IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.3
+2026-02-25 18:59:56 | INFO     | validator:validate_unit:66 | Validating Unit 2: Arquitectura de Cursos Virtuales de Calidad
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.3
+2026-02-25 18:59:56 | INFO     | validator:validate_unit:66 | Validating Unit 3: Creación de Contenidos Educativos con IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.3: Producción de Videos Educativos con IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.3
+2026-02-25 18:59:56 | INFO     | validator:validate_unit:66 | Validating Unit 4: Evaluación y Curación Crítica en Entornos Mediados por IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.3
+2026-02-25 18:59:56 | INFO     | validator:validate_unit:66 | Validating Unit 5: Implementación y Mejora Continua de Cursos Virtuales
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.1
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.2
+2026-02-25 18:59:56 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 18:59:56 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.3
+2026-02-25 18:59:56 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.3
+2026-02-25 18:59:56 | INFO     | validator:validate_course:54 | Validation complete: 45/75 valid
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:398 | Validation Results:
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:399 |   Total Elements: 75
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:400 |   Valid: 45
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:401 |   Invalid: 45
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:404 | Found 45 errors:
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:406 |   - Narrative 1.1: Word count 286 exceeds tolerance. Target: 1800 ±50
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:406 |   - Academic text 1.1: Word count 285 exceeds tolerance. Target: 1900 ±50
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:406 |   - Video script 1.1: Word count 292 exceeds tolerance. Target: 950 ±50
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:406 |   - Narrative 1.2: Word count 289 exceeds tolerance. Target: 1800 ±50
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:406 |   - Academic text 1.2: Word count 292 exceeds tolerance. Target: 1900 ±50
+2026-02-25 18:59:56 | WARNING  | course_creator:_phase_validate:409 | ⚠️ Some elements failed validation, but continuing...
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_validate:411 | ✅ Validation complete
+2026-02-25 18:59:56 | INFO     | course_creator:run:84 | 
+[PHASE 4] INSERT INTO RISE 360
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:416 | Inserting course content into Rise 360...
+2026-02-25 18:59:56 | INFO     | rise360_client:create_course:93 | SIMULATION: Created course course_sim_1772063996
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:436 | ✅ Course created: course_sim_1772063996
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772063996_1
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 1 created: unit_sim_course_sim_1772063996_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_1_1
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.1 created: lesson_sim_unit_sim_course_sim_1772063996_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_1_1_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_1_1_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_1_1_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_1_2
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.2 created: lesson_sim_unit_sim_course_sim_1772063996_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_1_2_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_1_2_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_1_2_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_1_3
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.3 created: lesson_sim_unit_sim_course_sim_1772063996_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_1_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_1_3_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_1_3_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_1_3_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772063996_2
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 2 created: unit_sim_course_sim_1772063996_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_2_1
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.1 created: lesson_sim_unit_sim_course_sim_1772063996_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_2_1_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_2_1_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_2_1_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_2_2
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.2 created: lesson_sim_unit_sim_course_sim_1772063996_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_2_2_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_2_2_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_2_2_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_2_3
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.3 created: lesson_sim_unit_sim_course_sim_1772063996_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_2_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_2_3_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_2_3_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_2_3_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772063996_3
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 3 created: unit_sim_course_sim_1772063996_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_3_1
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.1 created: lesson_sim_unit_sim_course_sim_1772063996_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_3_1_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_3_1_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_3_1_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_3_2
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.2 created: lesson_sim_unit_sim_course_sim_1772063996_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_3_2_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_3_2_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_3_2_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_3_3
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.3 created: lesson_sim_unit_sim_course_sim_1772063996_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_3_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_3_3_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_3_3_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_3_3_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772063996_4
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 4 created: unit_sim_course_sim_1772063996_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_4_1
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.1 created: lesson_sim_unit_sim_course_sim_1772063996_4_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_4_1_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_4_1_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_4_1_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_4_2
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.2 created: lesson_sim_unit_sim_course_sim_1772063996_4_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_4_2_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_4_2_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_4_2_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_4_3
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.3 created: lesson_sim_unit_sim_course_sim_1772063996_4_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_4_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_4_3_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_4_3_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_4_3_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772063996_5
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 5 created: unit_sim_course_sim_1772063996_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_5_1
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.1 created: lesson_sim_unit_sim_course_sim_1772063996_5_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_1_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_1_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_1_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_5_1_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_5_1_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_5_1_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_5_2
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.2 created: lesson_sim_unit_sim_course_sim_1772063996_5_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_2_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_2_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_2_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_5_2_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_5_2_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_5_2_6
+2026-02-25 18:59:56 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772063996_5_3
+2026-02-25 18:59:56 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.3 created: lesson_sim_unit_sim_course_sim_1772063996_5_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_3_1
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_3_2
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772063996_5_3_3
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772063996_5_3_4
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772063996_5_3_5
+2026-02-25 18:59:56 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772063996_5_3_6
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_insert:476 | ✅ Inserted 5/5 units
+2026-02-25 18:59:56 | INFO     | course_creator:run:90 | 
+[PHASE 5] GENERATE REPORTS
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_reports:557 | Generating reports...
+2026-02-25 18:59:56 | INFO     | course_creator:_generate_csv_report:614 | CSV report saved: output/course_creation_report.csv
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_reports:562 | ✅ CSV report generated
+2026-02-25 18:59:56 | INFO     | course_creator:_generate_json_report:652 | JSON report saved: output/course_structure.json
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_reports:566 | ✅ JSON report generated
+2026-02-25 18:59:56 | INFO     | course_creator:_generate_summary_report:727 | Summary report saved: output/COURSE_SUMMARY.txt
+2026-02-25 18:59:56 | INFO     | course_creator:_generate_summary_report:728 | 
+================================================================================
+MCU-ALTEA 150 COURSE CREATION - FINAL SUMMARY
+================================================================================
+
+COURSE INFORMATION
+------------------
+Name: Creación de Cursos Virtuales con IA para Profesores Universitarios
+Code: EDUTEC-CVIA-001
+Area: Educación y Tecnología Educativa
+Level: Master/Especialización (EQF Nivel 7)
+Duration: 112.5 hours
+Language: es
+Target Audience: Docentes Universitarios (mínimo 1 año experiencia)
+
+STRUCTURE CREATED
+-----------------
+Units: 5
+Themes: 15
+Total Elements: 90  (6 per theme)
+
+CONTENT GENERATED
+-----------------
+Narratives: 15 (1,800 words each)
+Academic Texts: 15 (1,900 words each)
+Video Scripts: 15 (950 words each)
+Infographics: 15
+Practical Activities: 15
+Key Concepts: 75
+
+RISE 360 INTEGRATION
+-------------------
+Course ID: course_sim_1772063996
+Course URL: https://rise.articulate.com/share/sim_course_sim_1772063996
+Mode: simulation
+
+EXECUTION DETAILS
+-----------------
+Start Time: 2026-02-25T18:59:56.744525
+End Time: 2026-02-25T18:59:56.943892
+Total Duration: 0.00 minutes
+
+DELIVERABLES
+------------
+✅ course_creation_report.csv - Detailed element inventory
+✅ course_structure.json - Complete course structure
+✅ rise360_automation.log - Execution logs
+✅ Course visible in Rise 360 - https://rise.articulate.com/share/sim_course_sim_1772063996
+
+NEXT STEPS
+----------
+1. Review course structure in Rise 360
+2. Verify all content blocks are properly inserted
+3. Test course navigation and interactions
+4. Publish course when ready
+5. Monitor student engagement and feedback
+6. Iterate and improve based on learning analytics
+
+================================================================================
+Status: ✅ COMPLETED SUCCESSFULLY
+================================================================================
+
+2026-02-25 18:59:56 | INFO     | course_creator:_phase_generate_reports:570 | ✅ Summary report generated
+2026-02-25 18:59:56 | INFO     | course_creator:run:95 | 
+================================================================================
+2026-02-25 18:59:56 | INFO     | course_creator:run:96 | ✅ MCU-ALTEA 150 COURSE CREATION COMPLETED SUCCESSFULLY
+2026-02-25 18:59:56 | INFO     | course_creator:run:97 | ================================================================================
+2026-02-25 18:59:56 | INFO     | __main__:main:78 | 
+================================================================================
+2026-02-25 18:59:56 | INFO     | __main__:main:79 | ✅ AUTOMATION COMPLETED SUCCESSFULLY
+2026-02-25 18:59:56 | INFO     | __main__:main:80 | ================================================================================
+2026-02-25 18:59:56 | INFO     | __main__:main:81 | 
+Reports available in: output/
+2026-02-25 18:59:56 | INFO     | __main__:main:82 | Course URL: https://rise.articulate.com/share/sim_course_sim_1772063996
+2026-02-25 19:06:27 | INFO     | __main__:setup_logging:39 | Logging configured. Log file: logs/rise360_automation_simulation.log
+2026-02-25 19:06:27 | INFO     | __main__:main:64 | ================================================================================
+2026-02-25 19:06:27 | INFO     | __main__:main:65 | MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 19:06:27 | INFO     | __main__:main:66 | ================================================================================
+2026-02-25 19:06:27 | INFO     | __main__:main:67 | Mode: simulation
+2026-02-25 19:06:27 | INFO     | __main__:main:68 | Skip Validation: False
+2026-02-25 19:06:27 | WARNING  | content_generator:__init__:22 | ANTHROPIC_API_KEY not set. Content generation will use templates.
+2026-02-25 19:06:27 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: output
+2026-02-25 19:06:27 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: logs
+2026-02-25 19:06:27 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: content
+2026-02-25 19:06:27 | INFO     | course_creator:__init__:46 | Initialized MCU-ALTEA 150 Course Creator in simulation mode
+2026-02-25 19:06:27 | INFO     | course_creator:run:61 | ================================================================================
+2026-02-25 19:06:27 | INFO     | course_creator:run:62 | STARTING MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-25 19:06:27 | INFO     | course_creator:run:63 | ================================================================================
+2026-02-25 19:06:27 | INFO     | course_creator:run:66 | 
+[PHASE 1] SETUP
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_setup:106 | Setting up automation environment...
+2026-02-25 19:06:27 | INFO     | rise360_client:authenticate:39 | SIMULATION MODE: Skipping authentication
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_setup:113 | ✅ Authentication successful
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_setup:114 | ✅ Setup complete
+2026-02-25 19:06:27 | INFO     | course_creator:run:72 | 
+[PHASE 2] GENERATE COURSE STRUCTURE
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:119 | Generating course structure...
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 286 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 292 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.1
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 289 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 292 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 294 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.2
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 284 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 294 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 293 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U1.3
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:166 | ✅ Generated Unit 1 with 3 themes
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Estándares de Calidad: Quality Matters Framework
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.1
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Estándares de Calidad: Quality Matters Framework
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.2
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U2.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 282 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U2.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 288 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U2.3
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 2 with 3 themes
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 276 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 289 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.1
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 278 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 283 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 289 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Generación de Narrativas y Casos de Estudio
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.2
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Generación de Narrativas y Casos de Estudio
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 3.3: Producción de Videos Educativos con IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U3.3: Producción de Videos Educativos con IA
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 277 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U3.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U3.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Producción de Videos Educativos con IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U3.3
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Producción de Videos Educativos con IA
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 3 with 3 themes
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 273 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 280 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 287 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.1
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 280 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 287 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 291 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Curación Crítica de Contenido Generado por IA
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.2
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Curación Crítica de Contenido Generado por IA
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 284 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U4.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 291 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U4.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 294 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U4.3
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 4 with 3 themes
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 281 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 288 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.1
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Montaje de Cursos en LMS y Publicación
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.1
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Montaje de Cursos en LMS y Publicación
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 280 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 290 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.2
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 290 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Análisis de Datos y Analítica Educativa
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.2
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Análisis de Datos y Analítica Educativa
+2026-02-25 19:06:27 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 19:06:27 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 279 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U5.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 291 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_video_script:302 | Generating video script for U5.3
+2026-02-25 19:06:27 | INFO     | content_generator:_generate_video_script_template:423 | Generated template video script with 292 words
+2026-02-25 19:06:27 | INFO     | content_generator:generate_key_concepts:436 | Generating key concepts for: Iteración Continua y Comunidades de Práctica
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:471 | Generating practical activity for U5.3
+2026-02-25 19:06:27 | INFO     | content_generator:generate_practical_activity:546 | Generated practical activity: Actividad Práctica: Iteración Continua y Comunidades de Práctica
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:207 | ✅ Generated Unit 5 with 3 themes
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_structure:238 | ✅ Generated complete course structure: 5 units, 15 themes total
+2026-02-25 19:06:27 | INFO     | course_creator:run:78 | 
+[PHASE 3] VALIDATE CONTENT
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:390 | Validating all course content...
+2026-02-25 19:06:27 | INFO     | validator:validate_course:29 | Starting comprehensive course validation...
+2026-02-25 19:06:27 | INFO     | validator:validate_unit:66 | Validating Unit 1: Fundamentos del Diseño Instruccional en la Era de la IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y ABS
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 1.3: Introducción a la IA Generativa como Copiloto Pedagógico
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 1.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 1.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 1.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 1.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 1.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 1.3
+2026-02-25 19:06:27 | INFO     | validator:validate_unit:66 | Validating Unit 2: Arquitectura de Cursos Virtuales de Calidad
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.1: Estándares de Calidad: Quality Matters Framework
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.2: Alineamiento Curricular y Objetivos de Aprendizaje
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 2.3: Diseño de Experiencias de Aprendizaje Coherentes
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 2.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 2.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 2.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 2.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 2.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 2.3
+2026-02-25 19:06:27 | INFO     | validator:validate_unit:66 | Validating Unit 3: Creación de Contenidos Educativos con IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.1: Diseño de Prompts Pedagógicos Efectivos
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.2: Generación de Narrativas y Casos de Estudio
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 3.3: Producción de Videos Educativos con IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 3.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 3.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 3.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 3.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 3.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 3.3
+2026-02-25 19:06:27 | INFO     | validator:validate_unit:66 | Validating Unit 4: Evaluación y Curación Crítica en Entornos Mediados por IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.1: Evaluaciones Auténticas Diseñadas con IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.2: Curación Crítica de Contenido Generado por IA
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 4.3: Marcos de Evaluación de Calidad: QM, Bloom y ABCDE
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 4.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 4.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 4.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 4.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 4.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 4.3
+2026-02-25 19:06:27 | INFO     | validator:validate_unit:66 | Validating Unit 5: Implementación y Mejora Continua de Cursos Virtuales
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.1: Montaje de Cursos en LMS y Publicación
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.1
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.2: Análisis de Datos y Analítica Educativa
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.2
+2026-02-25 19:06:27 | DEBUG    | validator:validate_theme:108 | Validating Theme 5.3: Iteración Continua y Comunidades de Práctica
+2026-02-25 19:06:27 | DEBUG    | validator:validate_narrative:170 | Validating narrative for 5.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_concepts:211 | Validating concepts for 5.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_academic_text:236 | Validating academic text for 5.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_infographic:278 | Validating infographic for 5.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_video_script:318 | Validating video script for 5.3
+2026-02-25 19:06:27 | DEBUG    | validator:validate_activity:370 | Validating activity for 5.3
+2026-02-25 19:06:27 | INFO     | validator:validate_course:54 | Validation complete: 45/75 valid
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:398 | Validation Results:
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:399 |   Total Elements: 75
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:400 |   Valid: 45
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:401 |   Invalid: 45
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:404 | Found 45 errors:
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:406 |   - Narrative 1.1: Word count 286 exceeds tolerance. Target: 1800 ±50
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:406 |   - Academic text 1.1: Word count 285 exceeds tolerance. Target: 1900 ±50
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:406 |   - Video script 1.1: Word count 292 exceeds tolerance. Target: 950 ±50
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:406 |   - Narrative 1.2: Word count 289 exceeds tolerance. Target: 1800 ±50
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:406 |   - Academic text 1.2: Word count 292 exceeds tolerance. Target: 1900 ±50
+2026-02-25 19:06:27 | WARNING  | course_creator:_phase_validate:409 | ⚠️ Some elements failed validation, but continuing...
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_validate:411 | ✅ Validation complete
+2026-02-25 19:06:27 | INFO     | course_creator:run:84 | 
+[PHASE 4] INSERT INTO RISE 360
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:416 | Inserting course content into Rise 360...
+2026-02-25 19:06:27 | INFO     | rise360_client:create_course:93 | SIMULATION: Created course course_sim_1772064387
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:436 | ✅ Course created: course_sim_1772064387
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772064387_1
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 1 created: unit_sim_course_sim_1772064387_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_1_1
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.1 created: lesson_sim_unit_sim_course_sim_1772064387_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_1_1_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_1_1_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_1_1_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_1_2
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.2 created: lesson_sim_unit_sim_course_sim_1772064387_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_1_2_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_1_2_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_1_2_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_1_3
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 1.3 created: lesson_sim_unit_sim_course_sim_1772064387_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_1_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_1_3_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_1_3_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_1_3_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772064387_2
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 2 created: unit_sim_course_sim_1772064387_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_2_1
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.1 created: lesson_sim_unit_sim_course_sim_1772064387_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_2_1_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_2_1_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_2_1_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_2_2
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.2 created: lesson_sim_unit_sim_course_sim_1772064387_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_2_2_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_2_2_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_2_2_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_2_3
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 2.3 created: lesson_sim_unit_sim_course_sim_1772064387_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_2_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_2_3_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_2_3_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_2_3_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772064387_3
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 3 created: unit_sim_course_sim_1772064387_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_3_1
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.1 created: lesson_sim_unit_sim_course_sim_1772064387_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_3_1_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_3_1_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_3_1_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_3_2
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.2 created: lesson_sim_unit_sim_course_sim_1772064387_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_3_2_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_3_2_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_3_2_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_3_3
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 3.3 created: lesson_sim_unit_sim_course_sim_1772064387_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_3_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_3_3_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_3_3_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_3_3_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772064387_4
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 4 created: unit_sim_course_sim_1772064387_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_4_1
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.1 created: lesson_sim_unit_sim_course_sim_1772064387_4_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_4_1_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_4_1_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_4_1_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_4_2
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.2 created: lesson_sim_unit_sim_course_sim_1772064387_4_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_4_2_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_4_2_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_4_2_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_4_3
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 4.3 created: lesson_sim_unit_sim_course_sim_1772064387_4_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_4_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_4_3_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_4_3_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_4_3_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_unit:132 | SIMULATION: Created unit unit_sim_course_sim_1772064387_5
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:454 | ✅ Unit 5 created: unit_sim_course_sim_1772064387_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_5_1
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.1 created: lesson_sim_unit_sim_course_sim_1772064387_5_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_1_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_1_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_1_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_5_1_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_5_1_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_5_1_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_5_2
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.2 created: lesson_sim_unit_sim_course_sim_1772064387_5_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_2_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_2_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_2_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_5_2_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_5_2_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_5_2_6
+2026-02-25 19:06:27 | DEBUG    | rise360_client:create_lesson:172 | SIMULATION: Created lesson lesson_sim_unit_sim_course_sim_1772064387_5_3
+2026-02-25 19:06:27 | DEBUG    | course_creator:_phase_insert:470 | ✅ Lesson 5.3 created: lesson_sim_unit_sim_course_sim_1772064387_5_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_3_1
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_3_2
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_text_block:214 | SIMULATION: Inserted text block block_sim_text_lesson_sim_unit_sim_course_sim_1772064387_5_3_3
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_image_block:259 | SIMULATION: Inserted image block block_sim_image_lesson_sim_unit_sim_course_sim_1772064387_5_3_4
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_video_block:303 | SIMULATION: Inserted video block block_sim_video_lesson_sim_unit_sim_course_sim_1772064387_5_3_5
+2026-02-25 19:06:27 | DEBUG    | rise360_client:insert_interaction_block:346 | SIMULATION: Inserted interaction block block_sim_interaction_lesson_sim_unit_sim_course_sim_1772064387_5_3_6
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_insert:476 | ✅ Inserted 5/5 units
+2026-02-25 19:06:27 | INFO     | course_creator:run:90 | 
+[PHASE 5] GENERATE REPORTS
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_reports:557 | Generating reports...
+2026-02-25 19:06:27 | INFO     | course_creator:_generate_csv_report:614 | CSV report saved: output/course_creation_report.csv
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_reports:562 | ✅ CSV report generated
+2026-02-25 19:06:27 | INFO     | course_creator:_generate_json_report:652 | JSON report saved: output/course_structure.json
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_reports:566 | ✅ JSON report generated
+2026-02-25 19:06:27 | INFO     | course_creator:_generate_summary_report:727 | Summary report saved: output/COURSE_SUMMARY.txt
+2026-02-25 19:06:27 | INFO     | course_creator:_generate_summary_report:728 | 
+================================================================================
+MCU-ALTEA 150 COURSE CREATION - FINAL SUMMARY
+================================================================================
+
+COURSE INFORMATION
+------------------
+Name: Creación de Cursos Virtuales con IA para Profesores Universitarios
+Code: EDUTEC-CVIA-001
+Area: Educación y Tecnología Educativa
+Level: Master/Especialización (EQF Nivel 7)
+Duration: 112.5 hours
+Language: es
+Target Audience: Docentes Universitarios (mínimo 1 año experiencia)
+
+STRUCTURE CREATED
+-----------------
+Units: 5
+Themes: 15
+Total Elements: 90  (6 per theme)
+
+CONTENT GENERATED
+-----------------
+Narratives: 15 (1,800 words each)
+Academic Texts: 15 (1,900 words each)
+Video Scripts: 15 (950 words each)
+Infographics: 15
+Practical Activities: 15
+Key Concepts: 75
+
+RISE 360 INTEGRATION
+-------------------
+Course ID: course_sim_1772064387
+Course URL: https://rise.articulate.com/share/sim_course_sim_1772064387
+Mode: simulation
+
+EXECUTION DETAILS
+-----------------
+Start Time: 2026-02-25T19:06:27.133255
+End Time: 2026-02-25T19:06:27.294152
+Total Duration: 0.00 minutes
+
+DELIVERABLES
+------------
+✅ course_creation_report.csv - Detailed element inventory
+✅ course_structure.json - Complete course structure
+✅ rise360_automation.log - Execution logs
+✅ Course visible in Rise 360 - https://rise.articulate.com/share/sim_course_sim_1772064387
+
+NEXT STEPS
+----------
+1. Review course structure in Rise 360
+2. Verify all content blocks are properly inserted
+3. Test course navigation and interactions
+4. Publish course when ready
+5. Monitor student engagement and feedback
+6. Iterate and improve based on learning analytics
+
+================================================================================
+Status: ✅ COMPLETED SUCCESSFULLY
+================================================================================
+
+2026-02-25 19:06:27 | INFO     | course_creator:_phase_generate_reports:570 | ✅ Summary report generated
+2026-02-25 19:06:27 | INFO     | course_creator:run:95 | 
+================================================================================
+2026-02-25 19:06:27 | INFO     | course_creator:run:96 | ✅ MCU-ALTEA 150 COURSE CREATION COMPLETED SUCCESSFULLY
+2026-02-25 19:06:27 | INFO     | course_creator:run:97 | ================================================================================
+2026-02-25 19:06:27 | INFO     | __main__:main:78 | 
+================================================================================
+2026-02-25 19:06:27 | INFO     | __main__:main:79 | ✅ AUTOMATION COMPLETED SUCCESSFULLY
+2026-02-25 19:06:27 | INFO     | __main__:main:80 | ================================================================================
+2026-02-25 19:06:27 | INFO     | __main__:main:81 | 
+Reports available in: output/
+2026-02-25 19:06:27 | INFO     | __main__:main:82 | Course URL: https://rise.articulate.com/share/sim_course_sim_1772064387
