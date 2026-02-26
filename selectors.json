@@ -1,0 +1,32 @@
+{
+  "_comment": "Selectores CSS para Articulate Rise 360 UI",
+  "_instructions": "Actualizar estos selectores basados en inspección real de la UI de Rise 360",
+
+  "login_email": "input[type='email'], input[name*='email'], input[id*='email']",
+  "login_password": "input[type='password'], input[name*='password'], input[id*='password']",
+  "login_button": "button[type='submit'], button:has-text('Sign In'), button:has-text('Login')",
+
+  "create_course_button": "button:has-text('New Course'), button:has-text('Create Course'), a:has-text('New Course')",
+  "course_name_input": "input[placeholder*='Course'], input[placeholder*='Name'], input[id*='courseName']",
+  "course_description_input": "textarea[placeholder*='Description'], textarea[id*='description'], div[contenteditable='true']",
+  "save_course_button": "button:has-text('Create'), button:has-text('Save'), button:has-text('Next')",
+
+  "add_unit_button": "button:has-text('Add Unit'), button:has-text('New Unit'), button:has-text('+ Unit')",
+  "unit_name_input": "input[placeholder*='Unit'], input[placeholder*='Name'], input[id*='unitName']",
+  "unit_confirm_button": "button:has-text('Create'), button:has-text('Save'), button:has-text('Add')",
+
+  "add_lesson_button": "button:has-text('Add Lesson'), button:has-text('New Lesson'), button:has-text('+ Lesson'), button:has-text('Add Topic')",
+  "lesson_name_input": "input[placeholder*='Lesson'], input[placeholder*='Topic'], input[placeholder*='Name']",
+  "lesson_confirm_button": "button:has-text('Create'), button:has-text('Save'), button:has-text('Add')",
+
+  "add_content_button": "button:has-text('Add Content'), button:has-text('+ Block'), button:has-text('Add Block')",
+  "text_block_type": "button:has-text('Text'), div:has-text('Text Block')",
+  "block_title_input": "input[placeholder*='Title'], input[placeholder*='Block Title']",
+  "block_content_input": "textarea[placeholder*='Content'], div[contenteditable='true'], textarea[id*='content']",
+  "save_block_button": "button:has-text('Save'), button:has-text('Done'), button:has-text('Add Block')",
+
+  "publish_button": "button:has-text('Publish'), button:has-text('Publish Course')",
+  "confirm_button": "button:has-text('Confirm'), button:has-text('OK'), button:has-text('Create')",
+
+  "_fallback_note": "Si los selectores no funcionan, inspeccionar la UI real con: right-click > Inspect > Copy selector"
+}

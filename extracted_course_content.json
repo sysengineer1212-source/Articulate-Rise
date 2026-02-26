@@ -1,0 +1,656 @@
+{
+  "name": "MCU-ALTEA 150 | Creación de Cursos Virtuales con IA para Profesores Universitarios",
+  "description": "",
+  "units": [
+    {
+      "number": 2,
+      "title": "C2 (Analizar/Evaluar - Nivel 4-5): Evaluar críticamente la calidad pedagógica de contenidos generados por IA mediante marcos de referencia establecidos (QM, Bloom, ABCDE), identificando fortalezas, debilidades y oportunidades de mejora en al menos 3 dimensiones: alineamiento curricular, engagement y accesibilidad.",
+      "lessons": []
+    },
+    {
+      "number": 3,
+      "title": "C3 (Crear/Sintetizar - Nivel 6): Diseñar una unidad didáctica completa (15 horas) para un curso virtual propio, integrando herramientas de IA en todas las fases del modelo ABCDE, con rúbricas de evaluación alineadas y evidencia de aplicación de principios de curación crítica y blindaje cognitivo.",
+      "lessons": []
+    },
+    {
+      "number": 4,
+      "title": "4.3 Estructura de Unidades y Temas",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "UNIDAD 1 COMPLETA: FUNDAMENTOS DEL DISEÑO INSTRUCCIONAL EN LA ERA DE LA IA",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "TEMA 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Abrió la plataforma institucional —un sistema que hasta entonces había usado solo para subir el syllabus y las calificaciones— y se encontró con una interfaz fría: carpetas vacías, botones sin contexto, espacios en blanco esperando ser llenados. \"Crear nuevo módulo\", decía un botón azul. Elena lo presionó y apareció un formulario: Título. Descripción. Archivos adjuntos. Sintió que estaba tratando de meter el océano en una botella.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Esa noche, Elena no pudo dormir. La palabra de Daniela resonaba: desconectada. Se dio cuenta de que había cometido el error más común en la transición digital: había asumido que enseñar en línea era simplemente enseñar presencialmente a través de una pantalla. Pero el aprendizaje virtual no era una versión disminuida del aula física; era un ecosistema completamente diferente con sus propias reglas, posibilidades y desafíos.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Elena comenzó a rediseñar su curso desde cero, pero esta vez pensando en términos de ecosistema, no de traducción. En lugar de un video largo de cuarenta minutos, creó cinco videos de ocho minutos, cada uno enfocado en un concepto específico, con preguntas reflexivas al final. Entre videos, diseñó actividades breves donde los estudiantes debían aplicar inmediatamente lo aprendido: analizar un comercial usando la teoría recién vista, compartir un ejemplo de su propia experiencia, responder a la reflexión de un compañero.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "CONCEPTOS CLAVE DE ESTE TEMA:",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Ecosistema de aprendizaje: Conjunto interconectado de recursos, actividades, interacciones y espacios (físicos y virtuales) que sostienen y facilitan el proceso de aprendizaje.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Transformación de Paradigmas: De la Educación Presencial a los Ecosistemas Digitales de Aprendizaje",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "La transición de la educación presencial a los entornos virtuales representa mucho más que un cambio de medio tecnológico; implica una transformación paradigmática en la comprensión misma de qué significa enseñar y aprender. Durante décadas, la educación superior se estructuró alrededor del aula física como unidad fundamental: un espacio compartido donde docentes y estudiantes coincidían en tiempo y lugar para el intercambio de conocimiento. Este modelo, heredado de las universidades medievales, se sostenía sobre supuestos implícitos sobre presencia, sincronicidad y transmisión directa del saber.",
+      "lessons": []
+    },
+    {
+      "number": 19,
+      "title": "La irrupción masiva de la educación virtual —acelerada dramáticamente por eventos globales como la pandemia de COVID-19— ha obligado a la comunidad académica a cuestionar estos supuestos y reconceptualizar los fundamentos del acto educativo. Este texto explora cinco conceptos clave que definen la transición del paradigma presencial al ecosistema digital de aprendizaje, proporcionando un marco teórico para comprender y diseñar experiencias educativas virtuales efectivas.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Un curso virtual con alta estructura (contenidos rígidos y lineales) y bajo diálogo (interacciones mínimas) genera alta distancia transaccional, produciendo la sensación de aislamiento y desconexión que muchos estudiantes experimentan. Por el contrario, un diseño que equilibra estructura clara con múltiples oportunidades de diálogo significativo puede reducir la distancia transaccional incluso por debajo de los niveles típicos del aula presencial, donde las interacciones están limitadas por el tiempo y la dinámica de grupo.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "La tecnología, en esta perspectiva, no es un medio neutral de entrega de contenido sino un entorno de construcción de conocimiento que puede amplificar o limitar las oportunidades de aprendizaje activo, dependiendo de cómo se diseñe y utilice.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Esto se traduce en prácticas pedagógicas como: invitar expertos externos mediante videoconferencias, conectar estudiantes con comunidades profesionales reales, enseñar estrategias de búsqueda y evaluación de información, usar casos de estudio actuales que requieran investigación en tiempo real, y crear espacios donde los estudiantes compartan recursos y aprendan unos de otros.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Este diseño incluye tres elementos clave: (1) Estructura temporal flexible con hitos claros: los estudiantes tienen autonomía para distribuir su tiempo de estudio, pero con fechas específicas donde deben sincronizarse para actividades colaborativas; (2) Secuenciación pedagógica: el contenido se organiza en unidades coherentes con progresión lógica, donde cada actividad prepara para la siguiente; y (3) Puntos de encuentro significativos: momentos estratégicos (discusiones, proyectos grupales, retroalimentación del profesor) donde la interacción sincrónica o asincrónica profunda es esencial.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "Ecosistema de Aprendizaje: Integración Holística de Elementos Educativos",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "El concepto de ecosistema de aprendizaje representa un cambio fundamental en cómo conceptualizamos la educación virtual. En lugar de pensar en cursos como colecciones lineales de contenidos, un ecosistema es un sistema integrado e interdependiente de elementos que se sostienen mutuamente: contenidos multimodales, actividades de aplicación, espacios de interacción, herramientas tecnológicas, sistemas de retroalimentación, y comunidad de aprendizaje.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "Al igual que un ecosistema natural, un ecosistema de aprendizaje saludable tiene diversidad (múltiples tipos de recursos y actividades), interconexión (cada elemento se relaciona con otros), flujo de energía (información y conocimiento circulan constantemente), y capacidad de adaptación (puede ajustarse a necesidades emergentes de los estudiantes).",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Este enfoque ecosistémico contrasta con el modelo transmisivo tradicional donde el profesor es la única fuente de conocimiento y los estudiantes son receptores pasivos. En un ecosistema, el profesor es diseñador de experiencias y facilitador de conexiones, los estudiantes son co-creadores activos, y el aprendizaje emerge de las interacciones dinámicas entre todos los elementos del sistema.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Diseñar un ecosistema de aprendizaje virtual requiere pensar en múltiples capas: la capa de contenido (textos, videos, infografías), la capa de actividad (ejercicios, proyectos, simulaciones), la capa social (foros, trabajo colaborativo, retroalimentación entre pares), la capa de evaluación (formativa y sumativa), y la capa metacognitiva (reflexión sobre el propio aprendizaje).",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "La transición del aula física al ecosistema digital no es simplemente cuestión de adoptar nuevas herramientas tecnológicas, sino de desarrollar una pedagogía digitalmente nativa: una comprensión profunda de cómo funcionan el aprendizaje y la enseñanza en entornos virtuales, con sus posibilidades únicas y sus desafíos específicos.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Los cinco conceptos explorados —distancia transaccional, constructivismo digital, conectivismo, aprendizaje asincrónico intencional, y ecosistema de aprendizaje— proporcionan un marco teórico robusto para que los docentes universitarios diseñen experiencias educativas virtuales que no solo repliquen la calidad del aula presencial, sino que la superen en dimensiones específicas: flexibilidad, personalización, acceso a recursos globales, documentación del aprendizaje, y desarrollo de habilidades críticas para el siglo XXI.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "NARRACIÓN: Hola, soy tu facilitador en este curso sobre creación de cursos virtuales con IA. Imagina por un momento que estás en tu oficina, preparando tu próxima clase. Tienes años de experiencia enseñando en el aula física, pero ahora necesitas llevar tu curso al entorno virtual. ¿Por dónde empiezas? ¿Simplemente grabas tus clases presenciales? ¿Subes tus presentaciones de PowerPoint? En este video vamos a descubrir por qué la educación virtual no es una versión digital del aula tradicional, sino un ecosistema completamente diferente con sus propias reglas y posibilidades extraordinarias.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Pero el conectivismo añade una capa crucial para el siglo XXI: el conocimiento no vive solo en tu cabeza, vive en las redes que construyes. En un mundo donde la información se duplica cada dos años, la habilidad crítica no es memorizar datos sino saber dónde encontrarlos, cómo evaluarlos, cómo conectarlos, y cómo actualizarlos constantemente. Tu curso virtual no debe ser un silo cerrado de contenido, sino un nodo conectado a una red más amplia: recursos externos, expertos reales, comunidades profesionales, casos actuales.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "VISUAL: Animación de cerebro con engranajes (constructivismo) transformándose en red neuronal que se expande fuera del cerebro hacia múltiples nodos de conocimiento (conectivismo). Mostrar estudiante conectándose a: videos, artículos, expertos, comunidades, bases de datos. Red que crece y se actualiza constantemente.",
+      "lessons": [
+        {
+          "number": "1.3",
+          "title": "Concepto 3: Ecosistema de Aprendizaje (60 seg)",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "NARRACIÓN: El concepto integrador es el ecosistema de aprendizaje. Deja de pensar en tu curso como una colección lineal de clases y empieza a pensarlo como un ecosistema vivo. En un ecosistema natural tienes diversidad de especies, interconexiones complejas, flujo constante de energía, y capacidad de adaptación. Tu curso virtual necesita lo mismo.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Un ecosistema saludable de aprendizaje es autosostenible: genera su propia energía mediante el engagement genuino de los estudiantes que dejan de ser consumidores pasivos y se convierten en co-creadores activos de conocimiento.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "VISUAL: Animación de ecosistema natural (bosque) transformándose en ecosistema digital de aprendizaje. Mostrar múltiples elementos interconectados: contenidos (árboles), actividades (ríos), interacciones (animales), evaluaciones (ciclos), con flujos de energía (luz) circulando en todas direcciones. Zoom out mostrando que todo está integrado en una plataforma LMS.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "NARRACIÓN: Recapitulemos: la educación virtual efectiva reduce la distancia transaccional mediante diseño intencional, aplica constructivismo digital para que los estudiantes construyan activamente conocimiento, abraza el conectivismo creando redes de aprendizaje, y funciona como un ecosistema integrado donde todos los elementos se sostienen mutuamente. En la siguiente actividad práctica, vas a analizar un curso virtual real identificando estos cinco conceptos. ¿Dónde ves distancia transaccional alta o baja? ¿Qué elementos constructivistas encuentras? ¿Cómo se manifiesta el ecosistema? Nos vemos en el próximo tema donde exploraremos los modelos pedagógicos específicos que hacen que todo esto funcione.",
+          "content": []
+        },
+        {
+          "number": "1.5",
+          "title": "VISUAL: Pantalla dividida mostrando los 5 conceptos clave con iconos: Distancia transaccional (puente), Constructivismo (engranajes), Conectivismo (red), Aprendizaje asincrónico (reloj flexible), Ecosistema (círculo integrado). Transición a pantalla de actividad práctica con instrucciones visibles.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "INFOGRAFÍA DEL TEMA",
+          "content": []
+        },
+        {
+          "number": "1.5",
+          "title": "Título: \"Del Aula Física al Ecosistema Digital: 5 Conceptos Clave\"",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Ecosistema de Aprendizaje",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Texto: \"Sistema integrado y vivo\"",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Título: Auditoría de Ecosistema Digital",
+          "content": []
+        },
+        {
+          "number": "1.5",
+          "title": "Vas a analizar un curso virtual existente (puede ser uno que hayas tomado como estudiante o uno que hayas diseñado) aplicando los 5 conceptos clave de este tema.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "TEMA 1.2: Modelos Pedagógicos para el Aprendizaje en Línea: Constructivismo, Conectivismo y Aprendizaje Basado en Soluciones",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "El lunes siguiente, Roberto hizo algo inusual. En lugar de comenzar la videoconferencia semanal con el tema programado, abrió con una confesión: \"Les voy a ser honesto. Creo que mi curso les está enseñando a aprobar exámenes sobre gestión de proyectos, pero no a gestionar proyectos reales. Y eso me parece un fracaso mío, no de ustedes.\"",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Roberto rediseñó su primera unidad aplicando este principio. En lugar de comenzar con una clase magistral sobre \"Introducción a la Gestión de Proyectos\", lanzó a sus estudiantes directamente a un caso: \"Eres el gerente de proyecto para el lanzamiento de una nueva aplicación móvil. Tienes un equipo de 8 personas, un presupuesto de $50,000, y tres meses de plazo. Tu cliente acaba de enviarte un correo con 15 requerimientos. ¿Cuál es tu primer movimiento?\"",
+      "lessons": [
+        {
+          "number": "8.1",
+          "title": "Roberto se dio cuenta de que su curso era un ecosistema cerrado. Los estudiantes solo interactuaban con el contenido que él seleccionaba, solo leían los textos que él asignaba, solo discutían con sus compañeros de clase. No había conexión con el mundo real de la gestión de proyectos que evolucionaba constantemente fuera del aula virtual.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Los conectó con comunidades profesionales como el Project Management Institute",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "Les pidió que cada semana compartieran un recurso externo que hubieran descubierto (artículo, video, podcast) relacionado con el tema de la semana",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "El conectivismo le enseñó a Roberto algo fundamental: su rol no era ser la única fuente de conocimiento, sino ser el arquitecto de un ecosistema donde el conocimiento fluía desde múltiples fuentes y todos contribuían a la red.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Roberto estructuró todo el semestre alrededor de un proyecto integrador. Desde la primera semana, cada estudiante (o equipo) seleccionaría un proyecto real —podía ser de su trabajo, de una organización comunitaria, o un emprendimiento personal— y aplicaría cada concepto del curso directamente a ese proyecto.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "A - APRENDER: Cada unidad comenzaba con contenido rico y multimodal. Roberto no simplemente explicaba qué era un cronograma; creaba narrativas donde un gerente de proyecto enfrentaba dilemas reales de secuenciación, videos que mostraban casos visuales, textos académicos que profundizaban en las metodologías. Los estudiantes primero construían comprensión sólida de los conceptos mediante inmersión en contenido diseñado intencionalmente. No era memorización pasiva, sino exploración activa de conceptos a través de historias, ejemplos y teoría integrada.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "CONCEPTOS CLAVE DE ESTE TEMA:",
+          "content": [
+            {
+              "type": "Text",
+              "title": "Narrativa/Introducción",
+              "content": "La efectividad de un curso virtual no depende únicamente de la tecnología empleada ni de la calidad del contenido, sino fundamentalmente del modelo pedagógico que estructura la experiencia de aprendizaje. Un modelo pedagógico es un marco conceptual que define cómo ocurre el aprendizaje, qué rol juegan docente y estudiante, cómo se organiza el conocimiento, y qué procesos facilitan la construcción de competencias genuinas versus la memorización superficial."
+            }
+          ]
+        },
+        {
+          "number": "1.1",
+          "title": "Este texto analiza tres modelos pedagógicos particularmente relevantes para el diseño de experiencias de aprendizaje virtual efectivas: el constructivismo social de Vygotsky, el conectivismo de Siemens y Downes, y el aprendizaje basado en soluciones. Cada modelo aporta principios únicos que, integrados coherentemente, pueden transformar cursos virtuales de repositorios de información en ecosistemas de desarrollo de competencias profesionales.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "4. El lenguaje es herramienta de pensamiento. Vygotsky planteaba que pensamos mediante lenguaje interno. En cursos virtuales, crear oportunidades para que los estudiantes articulen su pensamiento por escrito —reflexiones, explicaciones a compañeros, documentación de procesos— no solo demuestra aprendizaje sino que lo profundiza.",
+      "lessons": []
+    },
+    {
+      "number": 3,
+      "title": "3. Nutrir y mantener conexiones es esencial para el aprendizaje continuo. Construir una red de aprendizaje profesional —expertos a quienes seguir, comunidades de práctica, fuentes confiables de información actualizada— es una competencia crítica.",
+      "lessons": [
+        {
+          "number": "3.7",
+          "title": "7. El aprendizaje puede residir en dispositivos no humanos. Bases de datos, sistemas de IA, algoritmos pueden ser nodos en nuestra red de conocimiento.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Abrir el curso al mundo exterior. En lugar de ecosistemas cerrados, los cursos deben conectarse con comunidades profesionales reales, invitar expertos externos, dirigir a estudiantes hacia recursos actualizados constantemente, y enseñar habilidades de curación de información.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Enseñar explícitamente competencias de red. Los estudiantes deben aprender a construir redes profesionales de aprendizaje: cómo seguir líderes de pensamiento, cómo participar en comunidades de práctica, cómo evaluar fuentes, cómo sintetizar información de múltiples orígenes.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "C - CONECTAR: El conocimiento se co-construye mediante diálogo con pares. A partir de casos deliberadamente ambiguos, los estudiantes proponen soluciones, analizan propuestas de compañeros, identifican supuestos diferentes, debaten fortalezas y debilidades, y refinan sus posturas. Esta fase materializa el constructivismo social: ninguna comprensión es sólida hasta que puede sostenerse y reconstruirse en comunidad.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Integración: En lugar de fragmentar el conocimiento en unidades aisladas, el ABS requiere sintetizar múltiples conceptos para resolver problemas complejos, reflejando cómo funciona el trabajo profesional real.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "El conectivismo añade la dimensión de red: el curso no es un silo cerrado sino un nodo conectado a ecosistemas más amplios de conocimiento profesional. Los estudiantes desarrollan competencias de aprendizaje continuo y construcción de redes.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Por el contrario, un curso diseñado intencionalmente sobre principios de constructivismo social, conectivismo, y aprendizaje basado en soluciones puede transformar el entorno virtual en un ecosistema de desarrollo de competencias profesionales auténticas, preparando estudiantes no solo para aprobar exámenes sino para prosperar en la complejidad del mundo real.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "NARRACIÓN: Imagina dos cursos virtuales sobre el mismo tema, con el mismo contenido, usando la misma plataforma tecnológica. En el primer curso, los estudiantes memorizan definiciones, aprueban exámenes, y olvidan todo dos semanas después. En el segundo curso, los estudiantes desarrollan competencias profesionales reales, construyen redes de aprendizaje permanente, y resuelven problemas auténticos. ¿Cuál es la diferencia? No es la tecnología ni el contenido. Es el modelo pedagógico que estructura la experiencia de aprendizaje. En este video vamos a explorar tres modelos que transforman cursos virtuales de repositorios de información en ecosistemas de desarrollo profesional: constructivismo social, conectivismo, y aprendizaje basado en soluciones.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Piensa en cómo realmente trabajas como profesional. Cuando enfrentas un problema complejo, ¿memorizas todo de antemano? No. Consultas expertos, buscas información actualizada, sintetizas de múltiples fuentes, conectas ideas de diferentes campos. Tu capacidad profesional no está en lo que tienes memorizado, sino en las redes de conocimiento que puedes activar.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Entonces, ¿por qué diseñamos cursos como silos cerrados donde el profesor es la única fuente de conocimiento y los estudiantes solo interactúan entre ellos? El conectivismo te desafía a abrir tu curso al mundo: invita expertos reales, conecta a tus estudiantes con comunidades profesionales, enséñales a curar información de fuentes diversas, conviértelos en nodos activos de una red de aprendizaje profesional.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "VISUAL: Animación de cerebro individual transformándose en red neuronal que se expande más allá, conectándose con: otros cerebros (comunidad de aprendizaje), libros y artículos (fuentes), expertos (mentores), bases de datos (recursos digitales), comunidades profesionales. Red que pulsa con energía fluyendo en todas direcciones. Mostrar estudiante como nodo activo que tanto recibe como contribuye conocimiento. Texto: \"El conocimiento vive en las redes que construyes\".",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "C - CONECTAR: Aquí el constructivismo social brilla. Los estudiantes enfrentan casos ambiguos, proponen soluciones, analizan propuestas de compañeros, debaten fortalezas y debilidades, refinan sus posturas mediante diálogo. El conocimiento se co-construye en comunidad, no se transmite unidireccionalmente.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Estos tres modelos no compiten entre sí; se integran. Tu próxima actividad práctica te desafiará a rediseñar una unidad de tu curso aplicando los tres modelos simultáneamente. ¿Cómo estructurarías el aprendizaje para que tus estudiantes construyan colaborativamente, se conecten con redes profesionales, y resuelvan problemas reales? Nos vemos en el siguiente tema donde exploraremos cómo la IA generativa se convierte en tu co-piloto para implementar estos modelos pedagógicos a escala.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "INFOGRAFÍA DEL TEMA",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "✓ Conexión con expertos y comunidades reales",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "PIE DE INFOGRAFÍA: \"La integración de los tres modelos transforma tu curso de repositorio de información a ecosistema de desarrollo profesional\"",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Título: Rediseño Pedagógico de una Unidad Didáctica",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Contexto: Vas a tomar una unidad didáctica existente (de un curso que enseñes o hayas tomado) y la rediseñarás aplicando los tres modelos pedagógicos de este tema.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Describe brevemente una unidad didáctica que conozcas:",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "¿Cuál es el tema/competencia principal?",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "TEMA 1.3: Introducción a la IA Generativa como Co-piloto Pedagógico",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Era domingo por la tarde y la profesora Ana Mendoza estaba exactamente donde había estado los últimos seis domingos: sentada frente a su computadora, rodeada de tazas de café vacías, tratando de terminar el diseño de su nuevo curso virtual sobre Comunicación Organizacional. Llevaba tres meses en el proyecto y apenas había completado dos de las cinco unidades.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "El problema no era falta de conocimiento sobre el tema —Ana tenía quince años de experiencia profesional y un doctorado en Comunicación. El problema era la producción. Cada unidad requería escribir narrativas enganchantes, textos académicos rigurosos, guiones de video, diseñar actividades prácticas, crear rúbricas de evaluación, desarrollar casos de estudio. Era como tener cinco trabajos simultáneos, cada uno demandando habilidades diferentes.",
+      "lessons": []
+    },
+    {
+      "number": 3,
+      "title": "Frustrada, abrió LinkedIn para distraerse. El primer post en su feed era de un colega: \"Acabo de diseñar una unidad didáctica completa en 3 horas usando IA generativa como co-piloto. Esto cambia todo.\" Adjuntaba un screenshot de una conversación con ChatGPT donde había generado una narrativa pedagógica, un texto académico, y tres actividades prácticas.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Paso 1: Diseño Pedagógico Humano Ana comenzaba cada unidad definiendo manualmente: competencia objetivo, modelo pedagógico, estructura de contenidos, tipo de actividades. Esto era trabajo 100% humano que requería su expertise.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "\"Actúa como diseñador instruccional experto. Genera una narrativa pedagógica de 1,500 palabras sobre [tema específico] para estudiantes universitarios de comunicación. La narrativa debe: 1) Presentar un personaje profesional enfrentando un dilema real, 2) Ilustrar los conceptos de [concepto A, B, C] mediante la historia, 3) Usar lenguaje accesible pero académicamente riguroso, 4) Terminar con una reflexión que conecte la historia con aplicaciones profesionales. Contexto: Esta narrativa es parte de un curso virtual que aplica el modelo de aprendizaje basado en soluciones.\"",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Con este flujo, Ana completó las tres unidades restantes de su curso en dos semanas. Lo que le habría tomado ocho meses más trabajando sola, lo logró en catorce días con la IA como co-piloto.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Ana sonrió: \"¿Qué dirías si te dijera que puedes diseñar una unidad didáctica completa en una tarde?\" Mario la miró con escepticismo. Ana abrió su laptop y le mostró su flujo de trabajo con IA.",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Tres horas después, Mario había generado el borrador completo de una unidad: narrativa, texto académico, tres actividades prácticas, y una rúbrica de evaluación. Estaba asombrado, pero también inquieto: \"Ana, esto es increíble, pero... ¿no sientes que estamos haciendo trampa? ¿Qué pasa con la autenticidad del trabajo docente?\"",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "CONCEPTOS CLAVE DE ESTE TEMA:",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "IA Generativa: Sistemas de inteligencia artificial (como ChatGPT, Claude, Gemini) que pueden crear contenido nuevo —texto, imágenes, código— basándose en patrones aprendidos de grandes cantidades de datos.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "La irrupción de sistemas de IA generativa de gran escala —particularmente modelos de lenguaje como GPT-4, Claude, y Gemini— ha generado en la comunidad educativa una respuesta que oscila entre el pánico moral y el entusiasmo acrítico. Por un lado, advertencias apocalípticas sobre \"el fin del pensamiento crítico\" y \"estudiantes que nunca más escribirán por sí mismos\". Por otro, promesas utópicas de \"educación personalizada perfecta\" y \"profesores reemplazados por tutores de IA\".",
+      "lessons": [
+        {
+          "number": "4.4",
+          "title": "La IA generativa es una categoría de sistemas de inteligencia artificial que pueden crear contenido nuevo —texto, imágenes, audio, video, código— que no existía previamente pero que se asemeja a patrones aprendidos de datos de entrenamiento masivos. Los modelos de lenguaje de gran escala (LLMs) como GPT-4 son entrenados con billones de palabras de texto de internet, libros, artículos académicos, y otras fuentes, aprendiendo patrones estadísticos sobre cómo se estructura el lenguaje, cómo se relacionan conceptos, y cómo se construyen argumentos.",
+          "content": []
+        },
+        {
+          "number": "4.1",
+          "title": "Es crucial entender qué estos sistemas no hacen: no \"piensan\" en el sentido humano, no tienen comprensión genuina de significado, no tienen intencionalidad, y no pueden verificar la veracidad de lo que generan. Son, esencialmente, motores de predicción probabilística extremadamente sofisticados que generan la continuación más probable de un texto dado, basándose en patrones estadísticos.",
+          "content": []
+        },
+        {
+          "number": "4.1",
+          "title": "La metáfora del \"co-piloto\" —popularizada por GitHub Copilot para programadores— es particularmente útil para conceptualizar la relación apropiada entre docentes e IA generativa. En aviación, un sistema de piloto automático puede volar el avión, pero el piloto humano:",
+          "content": []
+        },
+        {
+          "number": "4.1",
+          "title": "Monitorea constantemente los sistemas",
+          "content": []
+        },
+        {
+          "number": "4.2",
+          "title": "2. Especificación de contexto: \"Para un curso virtual de nivel universitario sobre [tema], dirigido a estudiantes de [perfil], en contexto [geográfico/cultural]...\" Esto permite que la IA ajuste registro, ejemplos, y complejidad.",
+          "content": []
+        },
+        {
+          "number": "4.1",
+          "title": "Enriquecimiento contextual: ¿Dónde se pueden añadir casos locales, experiencias personales, o conexiones con temas actuales?",
+          "content": []
+        },
+        {
+          "number": "4.1",
+          "title": "Generar contenido sobre temas donde el docente carece de expertise para curar críticamente",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "El uso de IA generativa en educación plantea cuestiones éticas que la comunidad académica está apenas comenzando a abordar:",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "NARRACIÓN: Imagina que puedes diseñar una unidad didáctica completa —narrativa, texto académico, actividades, rúbricas— en una tarde en lugar de una semana. Imagina que tienes un asistente que puede generar diez variaciones de una actividad práctica en segundos, permitiéndote elegir la mejor. Imagina que nunca más te quedas en blanco frente a la pantalla tratando de escribir. Esto no es ciencia ficción; es la realidad de docentes que han aprendido a usar IA generativa como co-piloto pedagógico. En este video vamos a explorar qué es la IA generativa, cómo funciona, y —más importante— cómo puedes usarla éticamente para amplificar tu capacidad docente sin sacrificar calidad pedagógica. Vamos a desmitificar el pánico y el hype, y a darte un marco práctico para empezar hoy.",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "NARRACIÓN: Primero, desmitifiquemos qué es la IA generativa. Sistemas como ChatGPT, Claude, o Gemini son modelos de lenguaje entrenados con billones de palabras de texto: libros, artículos, sitios web. Aprendieron patrones estadísticos sobre cómo se estructura el lenguaje, cómo se relacionan conceptos, cómo se construyen argumentos.",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "En la próxima actividad práctica, vas a experimentar directamente: escribirás prompts pedagógicos, generarás contenido, lo curarás críticamente, y reflexionarás sobre el proceso. Es hora de transformar la teoría en práctica. Nos vemos en la Unidad 2, donde aplicaremos todo esto al diseño de arquitecturas de cursos virtuales de calidad. ¡Manos a la obra!",
+      "lessons": [
+        {
+          "number": "2.1",
+          "title": "INFOGRAFÍA DEL TEMA",
+          "content": []
+        },
+        {
+          "number": "2.1",
+          "title": "Tema de tu área de expertise sobre el cual generar contenido",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "Oportunidades para añadir tu voz/experiencia personal (márcalas en verde)",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "CIERRE DE LA UNIDAD 1",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Has completado la Unidad 1: Fundamentos del Diseño Instruccional en la Era de la IA. Integremos los tres temas:",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "Tema 1.1 te mostró que la educación virtual no es una versión disminuida del aula física, sino un ecosistema diferente con posibilidades únicas. Aprendiste sobre distancia transaccional, constructivismo digital, conectivismo, aprendizaje asincrónico intencional, y el concepto de ecosistema de aprendizaje.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Tema 1.2 te proporcionó tres modelos pedagógicos que transforman cursos virtuales de repositorios de información a experiencias de desarrollo profesional: el constructivismo social (aprendizaje como construcción colaborativa en la ZDP), el conectivismo (conocimiento en redes), y el aprendizaje basado en soluciones (modelo ABCDE).",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "Tema 1.3 te introdujo a la IA generativa como co-piloto pedagógico: una herramienta de amplificación de capacidad que, usada con prompt engineering pedagógico y curación crítica, te permite escalar la producción de contenido de calidad sin sacrificar rigor pedagógico.",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "La integración de estos tres temas crea un marco completo:",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "FUNDAMENTOS PARADIGMÁTICOS (Tema 1.1)",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "MODELOS PEDAGÓGICOS (Tema 1.2)",
+          "content": []
+        },
+        {
+          "number": "1.1",
+          "title": "HERRAMIENTAS DE AMPLIFICACIÓN (Tema 1.3)",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "PROYECTO INTEGRADOR DE LA UNIDAD 1",
+      "lessons": [
+        {
+          "number": "1.1",
+          "title": "¿Cómo conceptualizas la educación virtual? (¿ecosistema, espacio de construcción, red de aprendizaje?)",
+          "content": []
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "title": "¿Cómo conceptualizas tu relación con la IA? (¿co-piloto, herramienta, amenaza, oportunidad?)",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Entrega: Al finalizar la Unidad 1",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "RECURSOS ADICIONALES DE LA UNIDAD 1",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Comunidades de práctica:",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "AI for Education Community (LinkedIn Group)",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "EVALUACIÓN FORMATIVA DE LA UNIDAD 1",
+      "lessons": []
+    },
+    {
+      "number": 2,
+      "title": "Antes de avanzar a la Unidad 2, verifica tu comprensión respondiendo estas preguntas de autoevaluación:",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "□ ¿Puedo analizar un curso virtual existente identificando distancia transaccional, modelo pedagógico implícito, y oportunidades de mejora?",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "□ ¿Puedo curar críticamente contenido generado por IA identificando errores, generalizaciones, y oportunidades de enriquecimiento?",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "□ ¿Qué aspecto de esta unidad me resultó más desafiante y por qué?",
+      "lessons": []
+    },
+    {
+      "number": 9,
+      "title": "Si respondiste \"Sí\" o marcaste al menos 9 de 12 ítems, estás listo para avanzar a la Unidad 2: Arquitectura de Cursos Virtuales de Calidad, donde aplicaremos estos fundamentos al diseño estructural completo de cursos que cumplen estándares internacionales.",
+      "lessons": []
+    },
+    {
+      "number": 2,
+      "title": "TRANSICIÓN A LA UNIDAD 2",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "En la Unidad 1 construiste los fundamentos conceptuales: comprendiste los paradigmas de la educación virtual, los modelos pedagógicos que generan aprendizaje profundo, y cómo la IA puede amplificar tu capacidad docente.",
+      "lessons": []
+    },
+    {
+      "number": 2,
+      "title": "En la Unidad 2 daremos el siguiente paso: traducir estos fundamentos en arquitectura concreta de cursos. Aprenderás:",
+      "lessons": []
+    },
+    {
+      "number": 1,
+      "title": "Si la Unidad 1 fue sobre por qué y qué (paradigmas y principios), la Unidad 2 será sobre cómo (arquitectura y estructura concreta).",
+      "lessons": []
+    },
+    {
+      "number": 2,
+      "title": "Nos vemos en la Unidad 2, donde transformaremos fundamentos en diseño aplicado.",
+      "lessons": []
+    }
+  ]
+}

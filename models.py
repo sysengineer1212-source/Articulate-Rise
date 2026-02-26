@@ -58,7 +58,7 @@ class VideoScript(ContentElement):
     concepts_count: int = Field(le=3)
     examples_count: int = Field(ge=2)
     visuals_count: int
-    sections: List[Dict[str, Any]]  # [NARRACIÓN], [VISUAL] sections
+    sections: List[str] = []  # Section names: INTRO, DESARROLLO, CIERRE
 
 
 class Infographic(ContentElement):
