@@ -1,0 +1,45 @@
+2026-02-26 00:19:59 | INFO     | __main__:setup_logging:39 | Logging configured. Log file: logs/rise360_automation_simulation.log
+2026-02-26 00:19:59 | INFO     | __main__:main:64 | ================================================================================
+2026-02-26 00:19:59 | INFO     | __main__:main:65 | MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-26 00:19:59 | INFO     | __main__:main:66 | ================================================================================
+2026-02-26 00:19:59 | INFO     | __main__:main:67 | Mode: simulation
+2026-02-26 00:19:59 | INFO     | __main__:main:68 | Skip Validation: False
+2026-02-26 00:19:59 | WARNING  | content_generator:__init__:22 | ANTHROPIC_API_KEY not set. Content generation will use templates.
+2026-02-26 00:19:59 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: output
+2026-02-26 00:19:59 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: logs
+2026-02-26 00:19:59 | DEBUG    | course_creator:_setup_directories:52 | Directory ready: content
+2026-02-26 00:19:59 | INFO     | course_creator:__init__:46 | Initialized MCU-ALTEA 150 Course Creator in simulation mode
+2026-02-26 00:19:59 | INFO     | course_creator:run:61 | ================================================================================
+2026-02-26 00:19:59 | INFO     | course_creator:run:62 | STARTING MCU-ALTEA 150 COURSE AUTOMATION
+2026-02-26 00:19:59 | INFO     | course_creator:run:63 | ================================================================================
+2026-02-26 00:19:59 | INFO     | course_creator:run:66 | 
+[PHASE 1] SETUP
+2026-02-26 00:19:59 | INFO     | course_creator:_phase_setup:106 | Setting up automation environment...
+2026-02-26 00:19:59 | INFO     | rise360_client:authenticate:39 | SIMULATION MODE: Skipping authentication
+2026-02-26 00:19:59 | INFO     | course_creator:_phase_setup:113 | ✅ Authentication successful
+2026-02-26 00:19:59 | INFO     | course_creator:_phase_setup:114 | ✅ Setup complete
+2026-02-26 00:19:59 | INFO     | course_creator:run:72 | 
+[PHASE 2] GENERATE COURSE STRUCTURE
+2026-02-26 00:19:59 | INFO     | course_creator:_phase_generate_structure:119 | Generating course structure...
+2026-02-26 00:19:59 | DEBUG    | course_creator:_generate_theme:275 | Generating Theme 1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-26 00:19:59 | INFO     | content_generator:generate_narrative:67 | Generating narrative for U1.1: Del Aula Física al Ecosistema Digital: Paradigmas de la Educación Virtual
+2026-02-26 00:19:59 | INFO     | content_generator:_generate_narrative_template:163 | Generated template narrative with 286 words
+2026-02-26 00:19:59 | INFO     | content_generator:generate_academic_text:179 | Generating academic text for U1.1
+2026-02-26 00:19:59 | INFO     | content_generator:_generate_academic_text_template:286 | Generated template academic text with 285 words
+2026-02-26 00:19:59 | INFO     | content_generator:generate_video_script:302 | Generating video script for U1.1
+2026-02-26 00:19:59 | ERROR    | course_creator:_phase_generate_structure:243 | Failed to generate course structure: 3 validation errors for VideoScript
+sections.0
+  Input should be a valid dictionary [type=dict_type, input_value='INTRO', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.5/v/dict_type
+sections.1
+  Input should be a valid dictionary [type=dict_type, input_value='DESARROLLO', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.5/v/dict_type
+sections.2
+  Input should be a valid dictionary [type=dict_type, input_value='CIERRE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.5/v/dict_type
+2026-02-26 00:19:59 | ERROR    | course_creator:run:74 | Structure generation failed
+2026-02-26 00:19:59 | ERROR    | __main__:main:85 | 
+================================================================================
+2026-02-26 00:19:59 | ERROR    | __main__:main:86 | ❌ AUTOMATION FAILED
+2026-02-26 00:19:59 | ERROR    | __main__:main:87 | ================================================================================
+2026-02-26 00:19:59 | ERROR    | __main__:main:88 | Check logs in: logs/
